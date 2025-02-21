@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Резюме Романа Кузьменко - начинающего разработчика на JavaScript">
+    <meta name="keywords" content="Роман Кузьменко, резюме, программирование, JavaScript, разработчик">
+    <meta name="author" content="Роман Кузьменко">
+    <title>Резюме Романа Кузьменко</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="info">
+            <img src="123.jpg" id="avatar" alt="Фото Романа Кузьменко">
+
+            <div class="info-text">
+                <h1>Роман Кузьменко</h1>
+                <p>Я увлекаюсь компьютерами, их сборкой и настройкой.</p>
+                <p>В настоящее время активно изучаю программирование.</p>
+                <p>Я начинающий разработчик на <strong>JavaScript</strong>.</p>
+            </div>
+        </header>
+
+        <section class="social">
+            <h4>Мои социальные сети</h4>
+            <a href="https://vk.com/id660855696" target="_blank" rel="noopener noreferrer">ВКонтакте</a> 
+            | 
+            <a href="https://rutube.ru/channel/43132023" target="_blank" rel="noopener noreferrer">Rutube</a>
+        </section>
+
+        <section class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Семья</li>
+                <li>Горные лыжи</li>
+                <li>Компьютеры</li>
+                <li>Программирование</li>
+                <li>Компьютерные игры</li>
+            </ol>
+        </section>
+
+        <section class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Компания</th>
+                        <th>Должность</th>
+                        <th>Период</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Izakaya</td>
+                        <td>Повар</td>
+                        <td>2021–2023</td>
+                    </tr>
+                    <tr>
+                        <td>Красное-Белое</td>
+                        <td>Грузчик</td>
+                        <td>2023–2024</td>
+                    </tr>
+                    <tr>
+                        <td>Жильё-Групп</td>
+                        <td>Риелтор</td>
+                        <td>2024–2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="card bg-red">
+            <h2>Instagram</h2>
+            <ul class="link-list">
+                <li>
+                    <a href="https://www.instagram.com/kuzmenko_it/" target="_blank" rel="noopener noreferrer">Мой Instagram</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Связаться со мной</h2>
+            <form action="/" method="POST">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Введите текст сообщения" required></textarea>
+                </div>
+                <input class="btn" type="submit" value="Отправить">
+            </form>
+        </section>
+        <div class="position">
+            <div class="box"></div>
+        </div>
+    </div>
+</body>
+</html
